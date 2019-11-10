@@ -1,5 +1,5 @@
 {
-  "name": "react-express-heroku",
+  "name": "sitejet_language_tester",
   "version": "1.0.0",
   "main": "server/server.js",
   "repository": {},
@@ -19,5 +19,8 @@
     "install": "(cd client && npm install) && (cd server && npm install)",
     "start": "concurrently \"cd client && PORT=3000 npm run start\" \"cd server && PORT=3001 npm run start\"",
     "start:prod": "cd server && npm run start:prod"
-  }
+  },
+  "description": "A **create-react-app** as a client and an **express** as a server, on **Heroku**, made simple",
+  "devDependencies": {},
+  "author": ""
 }
